@@ -639,27 +639,29 @@ header .search-bar-container label:hover {
   }
 }
 
-header .navbar {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  left: 0;
-  background: #333;
-  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
-  padding: 1rem 2rem;
-  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-}
+@media (max-width: 780px) {
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: #333;
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+    padding: 1rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
 
-header .navbar.active {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-}
+  header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 
-header .navbar a {
-  display: block;
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-  background: #222;
+  header .navbar a {
+    display: block;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    background: #222;
+  }
 }
 
 @media (max-width: 450px) {
