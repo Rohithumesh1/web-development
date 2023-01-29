@@ -1,6 +1,6 @@
 # Web development
  This website was developed by
- 1. ROHIT U
+ 1. ROHITH U
  2. ROHAN SATISH KUMAR
  3. ROHAN S
  4. RAHUL RAJ
