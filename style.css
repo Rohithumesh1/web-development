@@ -74,7 +74,7 @@ header {
   z-index: 1000;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2rem 9%;
 }
 
@@ -152,7 +152,7 @@ header .search-bar-container label:hover {
   position: fixed;
   top: -120%;
   left: 0;
-  z-index: 10000;
+  z-index: 1;
   min-height: 100vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -676,4 +676,19 @@ header .search-bar-container label:hover {
   .contact .row form .inputBox input {
     width: 100%;
   }
+}
+
+#login-btn {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ffa500;
+  padding: 7px;
+  cursor: pointer;
+  color: #fff9ed;
+  border: #ffa500 2px solid;
+}
+
+#login-btn:hover {
+  background: rgba(255, 165, 0, 0.2);
+  color: var(--orange);
 }
