@@ -27,6 +27,7 @@ const toggleLogin = () => {
 const toggleLogout = () => {
   localStorage.clear();
   window.location.reload();
+  window.location.href = "https://rohithumesh1.github.io/web-development/";
 };
 
 function setCookie(name, value, daysToLive) {
