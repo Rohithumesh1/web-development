@@ -678,7 +678,7 @@ header .search-bar-container label:hover {
   }
 }
 
-#login-btn {
+.login-btn {
   font-size: 15px;
   font-weight: 600;
   background-color: #ffa500;
@@ -688,7 +688,16 @@ header .search-bar-container label:hover {
   border: #ffa500 2px solid;
 }
 
-#login-btn:hover {
+.login-btn:hover {
   background: rgba(255, 165, 0, 0.2);
   color: var(--orange);
+}
+
+.user-not-found {
+  background-color: #f8d7da; /* light red */
+  border: 2px solid #f5c6cb; /* darker red */
+  color: #721c24; /* dark red */
+  padding: 10px;  
+  margin: 10px;
+  display: none;
 }
