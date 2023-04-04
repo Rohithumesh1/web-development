@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Travel Destination</title>
   </head>
   <body>
@@ -20,14 +27,26 @@
         <a href="/web-development/pages/review.html">review</a>
         <a href="/web-development/pages/contact.html">contact</a>
       </nav>
-      <span id="login" class = "login-btn" onclick="toggleLogin()">LOGIN</span>
-      <span id="logout" class = "login-btn" onclick="toggleLogout()">LOGOUT</span>
+      <span id="login" class="login-btn" onclick="toggleLoginForm()"
+        >LOGIN</span
+      >
+      <span id="logout" class="login-btn" onclick="toggleLogout()">LOGOUT</span>
     </header>
     <div class="login-form-container">
       <form action="/">
         <h3>login</h3>
-        <input type="text" class="box" placeholder="Enter your email" />
-        <input type="password" class="box" placeholder="Enter your password" />
+        <input
+          id="email"
+          type="text"
+          class="box"
+          placeholder="Enter your email"
+        />
+        <input
+          id="password"
+          type="password"
+          class="box"
+          placeholder="Enter your password"
+        />
         <input type="button" value="login now" class="btn" />
         <div class="user-not-found">
           <p>Sorry, the user you are looking for could not be found.</p>
